@@ -25,4 +25,6 @@ test('test', { tag: '@smoke' }, async ({ page }) => {
   await page.getByRole('button', { name: 'Clear completed' }).click();
   await expect(page.locator('.todo-list li')).toHaveCount(5);
 
+  // Just adding comment to test new PR
+  
 });
